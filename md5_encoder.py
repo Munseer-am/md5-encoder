@@ -6,4 +6,4 @@ import hashlib
 str = input("Enter a string to convert into md5: ")
 
 # converting into md5
-enc = hashlib
+enc = hashlib.md5
