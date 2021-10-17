@@ -9,4 +9,4 @@ str = input("Enter a string to convert into md5: ")
 enc = hashlib.md5(str.encode()).hexdigest()
 
 # printing results
-
+print(enc)
